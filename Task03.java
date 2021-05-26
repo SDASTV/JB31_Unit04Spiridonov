@@ -12,7 +12,7 @@ public class Task03 {
 		}
 		System.out.print("Исходный массив: ");
 		for (int i = 0; i < array.length; i++) {
-			System.out.printf("%3.0f ", array[i]);
+			System.out.printf("[%3.0f] ", array[i]);
 		}
 		System.out.println("\n");
 		int positive = 0;

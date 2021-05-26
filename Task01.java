@@ -12,7 +12,7 @@ public class Task01 {
 		}
 		System.out.print("Исходный массив: ");
 		for (int i = 0; i < source.length; i++) {
-			System.out.printf("%3d ", source[i]);
+			System.out.printf("[%3d] ", source[i]);
 		}
 		System.out.println("\n");
 		int even = 0;
@@ -29,7 +29,7 @@ public class Task01 {
 		}
 		System.out.print("Результат (конечный массив из чётных чисел исходного массива): ");
 		for (int i = 0; i < target.length; i++) {
-			System.out.printf("%3d ", target[i]);
+			System.out.printf("[%3d] ", target[i]);
 		}
 	}
 }

@@ -12,7 +12,7 @@ public class Task04a {
 		}
 		System.out.print("Исходный массив:\t\t\t\t");
 		for (int i = 0; i < array.length; i++) {
-			System.out.printf("%3d ", array[i]);
+			System.out.printf("[%3d] ", array[i]);
 		}
 		System.out.println("\n");
 		int max, select;
@@ -28,14 +28,14 @@ public class Task04a {
 			array[max] = select;
 			System.out.print("Массив после " + (i+1) + "-й итерации:\t\t\t");
 			for (int k = 0; k < array.length; k++) {
-				System.out.printf("%3d ", array[k]);
+				System.out.printf("[%3d] ", array[k]);
 			}
 			System.out.print("\n");
 		}
 		System.out.print("\n");
 		System.out.print("Результат (cортировка выбором по убыванию):\t");
 		for (int i = 0; i < array.length; i++) {
-			System.out.printf("%3d ", array[i]);
+			System.out.printf("[%3d] ", array[i]);
 		}
 	}
 }

@@ -13,7 +13,7 @@ public class Task02 {
 		}
 		System.out.print("Исходный массив: ");
 		for (int i = 0; i < array.length; i++) {
-			System.out.printf("%3d ", array[i]);
+			System.out.printf("[%3d] ", array[i]);
 		}
 		System.out.println("\n");
 		min = array[0];

@@ -12,7 +12,7 @@ public class Task05 {
 		}
 		System.out.print("Исходный массив:\t\t\t");
 		for (int i = 0; i < array.length; i++) {
-			System.out.printf("%3d ", array[i]);
+			System.out.printf("[%3d] ", array[i]);
 		}
 		System.out.println("\n");
 		int in, out, select;
@@ -26,14 +26,14 @@ public class Task05 {
             array[in] = select;
             System.out.print("Массив после " + out + "-й итерации:\t\t");
 			for (int k = 0; k < array.length; k++) {
-				System.out.printf("%3d ", array[k]);
+				System.out.printf("[%3d] ", array[k]);
 			}
 			System.out.print("\n");
 		}
 		System.out.print("\n");
 		System.out.print("Результат (сортировка вставками):\t");
 		for (int i = 0; i < array.length; i++) {
-			System.out.printf("%3d ", array[i]);
+			System.out.printf("[%3d] ", array[i]);
 		}
 	}
 }
