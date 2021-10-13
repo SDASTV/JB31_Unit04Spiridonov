@@ -23,7 +23,7 @@ public class Task01 {
 		}
 		int[] target = new int[even];
 		for (int i = 0, j = 0; i < source.length; i++) {
-			if (source[i] %2 == 0) {
+			if (source[i] % 2 == 0) {
 				target[j++] = source[i];
 			}
 		}
